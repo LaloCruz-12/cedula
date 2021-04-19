@@ -27,7 +27,4 @@
         6. git commit -m "Comentario"
         7. git push origin main
 
-    * prueba.prueba.prueba
-
-    SIUUU!!!!
-    * ahora si este año es el chido, arriba el azul pinshis culeros
+  

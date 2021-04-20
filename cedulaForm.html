@@ -10,57 +10,68 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Barra Principal-->
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Cedula</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <a class="navbar-brand" href="">Cédula</a>
           <div class="row">
             <button type="button" class="btn btn-outline-dark">Salir</button>
           </div>
         </div>
-    </nav>
+    </nav> <!-- Fin Barra Principal-->
     
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <form class="row g-3">
                     <div class="col-md-4">
-                      <label for="nombre" class="form-label">Nombre(s)</label>
-                      <input type="text" class="form-control" id="nombre" placeholder="*Obligatorio">
-                    </div>
-                    <div class="col-md-4">
                       <label for="apellido_pat" class="form-label">Apellido Paterno</label>
-                      <input type="text" class="form-control" id="apellido_pat" placeholder="*Obligatorio">
+                      <input type="text" class="form-control" id="apellido_pat">
                     </div>
                     <div class="col-md-4">
                       <label for="apellido_mat" class="form-label">Apellido Materno</label>
-                      <input type="text" class="form-control" id="apellido_mat" placeholder="*Obligatorio">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress" class="form-label">Address</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Address 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">City</label>
-                      <input type="text" class="form-control" id="inputCity">
+                      <input type="text" class="form-control" id="apellido_mat">
                     </div>
                     <div class="col-md-4">
-                      <label for="inputState" class="form-label">State</label>
-                      <select id="inputState" class="form-select">
-                        <option selected>Elige</option>
-                        <option>...</option>
-                      </select>
+                      <label for="nombre" class="form-label">Nombre(s)</label>
+                      <input type="text" class="form-control" id="nombre">
                     </div>
                     <div class="col-md-2">
-                      <label for="inputZip" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="inputZip">
+                      <label for="edad" class="form-label">Edad</label>
+                      <input type="" class="form-control" id="edad"> <!--Hacer comparacion con fecha de nac para que no sea una entrada y se ponga en automatico-->
                     </div>
+                    <div class="col-md-4">
+                      <label for="fecha_nac" class="form-label">Fecha de Nacimiento</label>
+                      <input type="date" class="form-control" id="fecha_nac">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="puesto_institucion" class="form-label">Puesto en la Institucion</label>
+                      <select id="puesto_institucion" class="form-select">
+                        <option selected>Seleccione una opción...</option>
+                        <option>PTC</option>
+                        <option>PDA</option>
+                        <option>PMT</option>
+                        <option>No se que otros...</option>
+                      </select>
+                    </div>
+                    <h4>Formacion Académica</h4>
+                    <div class="col-md-2">
+                      <label for="nivel" class="form-label">Nivel</label>
+                      <select id="nivel" class="form-select">
+                        <option selected>Seleccionar...</option>
+                        <option>Licenciatura</option>
+                        <option>Especialidad</option>
+                        <option>Maestría</option>
+                        <option>Doctorado</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="nombre_especialidad" class="form-label">Nombre (incluir especialidad)</label>
+                      <input type="text" class="form-control" id="nombre_especialidad">
+                    </div>
+
                     <div class="col-12">
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -70,7 +81,7 @@
                       </div>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Ingresar Datos</button>
+                      <button type="submit" class="btn btn-primary">Sign in</button>
                     </div>
                   </form>
             </div>

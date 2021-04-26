@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	background:url(../img/bgfesa.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+
+}
+
+.caja-login {
+	width: 320px;
+	height: 400px;
+	background: #000;
+	color: #FFF;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.caja-login .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.caja-login h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+.caja-login label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+
+}
+
+.caja-login input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.caja-login input[type="text"]{ 
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.caja-login input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.caja-login input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #FFFF00;
+	color: #0404B4;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.caja-login a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:darkgrey;
+}
+
+.caja-login a:hover {
+	color: #FFF;
+}

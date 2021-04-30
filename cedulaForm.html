@@ -256,15 +256,62 @@
             <label for="horas_actualizacion" class="form-label">Horas</label>
             <input type="number" class="form-control" id="horas_actualizacion">
           </div>
-          &nbsp;
         </form>
-      </div>
       <br>
-      <div class="col-md-3">
-        <span class="btn btn-primary">Agregar nueva actualización</span> <!--configurar este boton para que pueda agregar otro formulario igual-->
-      </div>
-      <p>  
-      </p>
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#agregar_nueva_actu1" role="button" aria-expanded="false" aria-controls="agregar_nueva_actu1">Agregar nueva actualización</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="agregar_nueva_actu1">
+              <form class="row g-3">
+                <div class="col-md-4">
+                  <label for="tipo_actualizacion" class="form-label">Tipo de Actualización</label>
+                  <input type="text" class="form-control" id="tipo_actualizacion">
+                </div>
+                <div class="col-md-4">
+                  <label for="inst_pais_actualizacion" class="form-label">Institución y país</label>
+                  <input type="text" class="form-control" id="inst_pais_actualizacion">
+                </div>
+                <div class="col-md-2">
+                  <label for="ano_obt_actualizacion" class="form-label">Año de Obtención</label>
+                  <input type="number" class="form-control" id="ano_obt_actualizacion">
+                </div>
+                <div class="col-md-2">
+                  <label for="horas_actualizacion" class="form-label">Horas</label>
+                  <input type="number" class="form-control" id="horas_actualizacion">
+                </div>
+              </form>
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#agregar_nueva_actu2" role="button" aria-expanded="false" aria-controls="agregar_nueva_actu2">Agregar nueva actualización</a>
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="agregar_nueva_actu2">
+                      <form class="row g-3">
+                        <div class="col-md-4">
+                          <label for="tipo_actualizacion" class="form-label">Tipo de Actualización</label>
+                          <input type="text" class="form-control" id="tipo_actualizacion">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inst_pais_actualizacion" class="form-label">Institución y país</label>
+                          <input type="text" class="form-control" id="inst_pais_actualizacion">
+                        </div>
+                        <div class="col-md-2">
+                          <label for="ano_obt_actualizacion" class="form-label">Año de Obtención</label>
+                          <input type="number" class="form-control" id="ano_obt_actualizacion">
+                        </div>
+                        <div class="col-md-2">
+                          <label for="horas_actualizacion" class="form-label">Horas</label>
+                          <input type="number" class="form-control" id="horas_actualizacion">
+                        </div>
+                        &nbsp;
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
       <hr>
       &nbsp;
       <div class="row">
@@ -289,13 +336,38 @@
             <label for="mes_ano_inicio_gestion" class="form-label">A: (Mes y Año)</label>
             <input type="number" class="form-control" id="mes_ano_fin_gestion">
           </div>
-          &nbsp;
         </form>
-      </div>
       <br>
-      <div class="col-md-2">
-        <span class="btn btn-primary">Agregar nueva gestión</span> <!--configurar este boton para que pueda agregar otro formulario igual-->
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#agregar_nueva_gestion1" role="button" aria-expanded="false" aria-controls="agregar_nueva_gestion1">Agregar nueva actualización</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="agregar_nueva_gestion1">
+              <form class="row g-3">
+                <div class="col-md-4">
+                  <label for="actividad_puesto_gestion" class="form-label">Actividad o Puesto</label>
+                  <input type="text" class="form-control" id="actividad_puesto_gestion">
+                </div>
+                <div class="col-md-4">
+                  <label for="inst_gestion" class="form-label">Institución</label>
+                  <input type="text" class="form-control" id="inst_gestion">
+                </div>
+                <div class="col-md-2">
+                  <label for="mes_ano_inicio_gestion" class="form-label">De: (Mes y Año)</label>
+                  <input type="number" class="form-control" id="mes_ano_inicio_gestion">
+                </div>
+                <div class="col-md-2">
+                  <label for="mes_ano_inicio_gestion" class="form-label">A: (Mes y Año)</label>
+                  <input type="number" class="form-control" id="mes_ano_fin_gestion">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
       <p>  
       </p>
       <hr>
@@ -314,7 +386,6 @@
             <label for="descripcion_producto" class="form_label">Descripción del Producto Académico</label>
             <input type="text" class="form-control" id="descripcion_producto">
           </div>
-          &nbsp;
         </form>
       </div>
       <br>

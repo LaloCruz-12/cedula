@@ -73,7 +73,7 @@ body {
 
 }
 
-.caja-login input[type="submit"] {
+.btn {
 	border: none;
 	outline: none;
 	height: 40px;

@@ -2,8 +2,15 @@ html{
     font-size: 80%;
 }
 
-body{
-    font-size: 18px;
+body {
+        margin: 0;
+        padding: 0;
+        background:url(../img/fesaragon_torres.jpg) no-repeat center top;
+        backdrop-filter: blur(1px);
+        background-size: cover;
+        font-family: sans-serif;
+        height: 100vh;
+        font-size: 18px;
 }
  
 .navbar {
@@ -12,4 +19,8 @@ body{
 
 .btn{
 	background-color: #fd7e14;
+}
+
+.bienvenido {
+    margin-top: 100px;
 }

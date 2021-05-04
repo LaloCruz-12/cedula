@@ -21,6 +21,17 @@ body {
 	background-color: #fd7e14;
 }
 
-.bienvenido {
-    margin-top: 100px;
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a{
+    margin-bottom: 50px;
 }

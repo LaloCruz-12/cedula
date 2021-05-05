@@ -74,13 +74,14 @@ body {
 }
 
 .btn {
-	border: none;
-	outline: none;
-	height: 40px;
-	background: #FFFF00;
-	color: #0404B4;
-	font-size: 18px;
-	border-radius: 20px;
+	background-color: #f4511e;
+ 	border: none;
+  	color: white;
+  	padding: 8px 16px;
+ 	 text-align: center;	  
+ 	 font-size: 32px;
+	
+ 	 
 }
 
 .caja-login a {

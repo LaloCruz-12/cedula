@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light"> <!--Barra Principal-->
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="row-md-12">
+            <a class="navbar-brand" href="inicio.html">Inicio</a>
+            <a class="navbar-brand" href="cedula.html">Cedula</a>
+            <a class="navbar-brand" href="cedulaForm.html">Editar</a>
+          </div>
+          <div class="row-md-12">
+            <button type="button" class="btn btn-outline-dark">Salir</button>
+          </div>
+        </div>
+      </nav> <!-- Fin Barra Principal-->
+
+      <div class="row">
+        <div class="row">
+          <h3>Capacitacion docente</h3>
+          <br>
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="tipo_capacitacion" class="form-label">Tipo de Capacitación</label>
+              <input type="text" class="form-control" id="tipo_capacitacion">
+            </div>
+            <div class="col-md-4">
+              <label for="inst_pais_capacitacion" class="form-label">Institución y país</label>
+              <input type="text" class="form-control" id="inst_pais_capacitacion">
+            </div>
+            <div class="col-md-2">
+              <label for="ano_obt_capacitacion" class="form-label">Año de Obtención</label>
+              <input type="number" class="form-control" id="ano_obt_capacitacion">
+            </div>
+            <div class="col-md-2">
+              <label for="horas_capacitacion" class="form-label">Horas</label>
+              <input type="number" class="form-control" id="horas_capacitacion">
+            </div>
+            &nbsp;
+          </form>
+        </div>       
+        <p>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#AgregarCapaci1" role="button" aria-expanded="false" aria-controls="AgregarCapaci1">Agregar Otro</a>
+        </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="AgregarCapaci1">
+              <form class="row g-3">
+              <div class="col-md-4">
+                <label for="tipo_capacitacion" class="form-label">Tipo de Capacitación</label>
+                <input type="text" class="form-control" id="tipo_capacitacion">
+              </div>
+              <div class="col-md-4">
+                <label for="inst_pais_capacitacion" class="form-label">Institución y país</label>
+                <input type="text" class="form-control" id="inst_pais_capacitacion">
+              </div>
+              <div class="col-md-2">
+                <label for="ano_obt_capacitacion" class="form-label">Año de Obtención</label>
+                <input type="number" class="form-control" id="ano_obt_capacitacion">
+              </div>
+              <div class="col-md-2">
+                <label for="horas_capacitacion" class="form-label">Horas</label>
+                <input type="number" class="form-control" id="horas_capacitacion">
+              </div>
+              &nbsp;
+            </form>
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#AgregarCapaci2" role="button" aria-expanded="false" aria-controls="AgregarCapaci2">Agregar Otro</a>
+              </p>
+      <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="AgregarCapaci2">
+              <form class="row g-3">
+              <div class="col-md-4">
+                <label for="tipo_capacitacion" class="form-label">Tipo de Capacitación</label>
+                <input type="text" class="form-control" id="tipo_capacitacion">
+              </div>
+              <div class="col-md-4">
+                <label for="inst_pais_capacitacion" class="form-label">Institución y país</label>
+                <input type="text" class="form-control" id="inst_pais_capacitacion">
+              </div>
+              <div class="col-md-2">
+                <label for="ano_obt_capacitacion" class="form-label">Año de Obtención</label>
+                <input type="number" class="form-control" id="ano_obt_capacitacion">
+              </div>
+              <div class="col-md-2">
+                <label for="horas_capacitacion" class="form-label">Horas</label>
+                <input type="number" class="form-control" id="horas_capacitacion">
+              </div>
+              &nbsp;
+            </form>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light"> <!--Barra Principal-->
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="row-md-12">
+            <a class="navbar-brand" href="inicio.html">Inicio</a>
+            <a class="navbar-brand" href="cedula.html">Cedula</a>
+            <a class="navbar-brand" href="cedulaForm.html">Editar</a>
+          </div>
+          <div class="row-md-12">
+            <button type="button" class="btn btn-outline-dark">Salir</button>
+          </div>
+        </div>
+      </nav> <!-- Fin Barra Principal-->
+
+      <div class="row">
+        <h3>Experiencia profesional (no académica)</h3>
+        <p>Anotar las actividades o puestos desempeñados en orden cronológico decreciente: 
+          primero la más reciente (o actual) y de último la más antigüa.
+        </p>
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="actividad_puesto_exp" class="form_label">Actividad ó Puesto</label>
+            <input type="text" class="form-control" id="actividad_puesto_exp">
+          </div>
+          <div class="col-md-4">
+            <label for="organizacion_exp" class="form_label">Organización ó Empresa</label>
+            <input type="text" class="form-control" id="organizacion_exp">
+          </div>
+          <div class="col-md-2">
+            <label for="mes_ano_inicio_exp" class="form-label">De:(Mes y Año)</label>
+            <input type="number" class="form-control" id="mes_ano_inicio_exp">
+          </div>
+          <div class="col-md-2">
+            <label for="mes_ano_fin_exp" class="form-label">A:(Mes y Año)</label>
+            <input type="number" class="form-control" id="mes_ano_fin_exp">
+          </div>
+          &nbsp;
+        </form>
+      </div>
+      <br>
+      <div class="col-md-3">
+        <span class="btn btn-primary">Agregar nueva experiencia</span> <!--configurar este boton para que pueda agregar otro formulario igual-->
+      </div>
+      <p>  
+      </p>
+      <hr>
+  </body>
+</html>
